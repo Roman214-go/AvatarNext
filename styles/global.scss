@@ -1,0 +1,22 @@
+$icon-size: 55px;
+@import '~react-pro-sidebar/dist/scss/styles.scss';
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.pro-menu {
+    height: 100%;
+    ul {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        li {
+            margin-left: 22px;
+        }
+    }
+}
